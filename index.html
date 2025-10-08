@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>zdenko-gera</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -19,16 +21,16 @@
         <div id="landing">
             <div id="landing-group">
                 <p id="landing-text">Hello there!&nbsp;<span></span></p>
-                <p id="landing-secondary-text">Thank you for visiting my personal website!</p>
-                <a href="#projects" class="button">See my projects</a>
+                <p id="landing-secondary-text">Scroll down to see what I am working on or to get some inspiration!</p>
+                <a href="#projects-title" class="button">See my projects</a>
             </div>
         </div>
         <h3 class="subtitle" id="projects-title">Work I am proud of</h3>
         <div id="projects">
             <div class="card">
-                <a href="https://szobaberles.hu/" target="_blank" class="card-title">szobaberles.hu</a>
-                <div class="card-type">solo</div>
-                <div class="card-desc"><a href="./szobaberles.html">Show more</a></div>
+                <a href="https://web.archive.org/web/20250321022231/https://www.szobaberles.hu/" target="_blank" class="card-title">szobaberles.hu</a>
+                <div class="card-type">Done</div>
+                <a href="./szobaberles.html" class="card-desc">Details</a>
                 <div class="card-label">
                     <!--<img src="assets/laravel.png" alt=""><img src="assets/javascript.png" alt=""><img src="assets/mysql.png" alt="">-->
                     #Laravel #JavaScript #MySQL
@@ -37,27 +39,26 @@
 
             <div class="card">
                 <a href="https://github.com/zdenko-gera/zdenko-gera-thesis-rubiks-cube-solver" target="_blank" class="card-title">rubiks-cube-solver</a>
-                <div class="card-type">solo</div>
-                <div class="card-desc"><a href="./rubiks-cube-solver.html">Show more</a></div>
-                <div class="card-label"><img src="assets/laravel.png" alt=""><img src="assets/javascript.png" alt=""><img src="assets/mysql.png" alt=""></div>
+                <div class="card-type">Done</div>
+                <a href="./rubiks-cube-solver.html" class="card-desc">Details</a>
+                <div class="card-label">#Laravel #JavaScript #MySQL</div>
             </div>
 
             <div class="card">
                 <a href="https://vetessy.hu/" target="_blank" class="card-title">vetessy.hu</a>
-                <div class="card-type">solo</div>
-                <div class="card-desc"><a href="./vetessy.html">Show more</a></div>
-                <div class="card-label"><img src="assets/php.png" alt=""><img src="assets/javascript.png" alt=""></div>
+                <div class="card-type">Work in progress</div>
+                <a href="./vetessy.html" class="card-desc">Details</a>
+                <div class="card-label">#PHP #JavaScript</div>
             </div>
 
             <div class="card">
-                <a href="https://github.com/zdenko-gera/diary-gui" target="_blank" class="card-title">diary-gui</a>
-                <div class="card-type">solo</div>
-                <div class="card-desc"><a href="./diary-gui.html">Show more</a></div>
-                <div class="card-label"><img src="assets/java.png" alt=""><img src="assets/sqlite.png" alt=""></div>
+                <span class="card-title">[WIP] Home DNS server</span>
+                <div class="card-type">Work in progress</div>
+                <a href="./dns-server.html" class="card-desc">Details</a>
+                <div class="card-label">#RaspberryPi #Linux #Network</div>
             </div>
         </div>
-        <a href="https://github.com/zdenko-gera" target="_blank" class="button">See more</a>
-        <p id="repo-count">Public repositories on GitHub:</p>
+        <a href="https://github.com/zdenko-gera" target="_blank" class="button" id="link-button">See my <span id="repo-count"></span> public repos</a>
 
         <h3 class="subtitle" id="about-me-title">About me</h3>
         <div id="about-me"></div>
@@ -69,6 +70,9 @@
             </div>
         </div>
     </main>
+    <footer>
+        Zdenkó Gera - 2025
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>

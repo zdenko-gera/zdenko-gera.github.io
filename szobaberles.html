@@ -2,22 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>zdenko-gera</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="./lightbox/dist/css/lightbox.css" rel="stylesheet" />
+
 </head>
 <body>
     <header>
         <h2>zdenko-gera</h2>
-        <a href="#projects-title">Projects</a>
-        <a href="#about-me-title">About me</a>
-        <a href="#contact-title">Contact</a>
+        <a href="./index.html#projects-title">Projects</a>
+        <a href="./index.html#about-me-title">About me</a>
+        <a href="./index.html#contact-title">Contact</a>
     </header>
     <main>
-        <a href="./index.html#projects-title">Back</a>
-    </main>
+        <a href="./index.html#projects-title" class="button back-button">Back</a>
+        <h3 class="subtitle">Szobaberles.hu</h3>
+        <div class="general-block">
+            <h4>General</h4>
+            <p>I worked on Szobaberles.hu because of a personal inner motivation. The webapplication was available on the internet for one year.
+                My goal with it was to create a centralized forum for flatshare ads in Hungary.
+            </p>
+
+            <h4>Technical details:</h4>
+            <p>The server side needs were fulfilled using Laravel and for the frontend operations I used native JavaScript.</p>
+
+            <h4>Gallery</h4>
+            <div class="gallery">
+                <a href="./assets/screenshots/szobaberles/szb-1.png" data-lightbox="szobaberles" data-title="Screenshot of the landing page"><img src="./assets/screenshots/szobaberles/szb-1.png" alt="Screenshot of the landing page"></a>
+                <a href="./assets/screenshots/szobaberles/szb-2.png" data-lightbox="szobaberles" data-title="Screenshot of some uploaded advertisements"><img src="./assets/screenshots/szobaberles/szb-2.png" alt="Screenshot of some uploaded advertisements"></a>
+                <a href="./assets/screenshots/szobaberles/szb-3.png" data-lightbox="szobaberles" data-title="Screenshot of the inbox site"><img src="./assets/screenshots/szobaberles/szb-3.png" alt="Screenshot of the inbox site"></a>
+                <a href="./assets/screenshots/szobaberles/szb-4.png" data-lightbox="szobaberles" data-title="Screenshot of a specific advertisement"><img src="./assets/screenshots/szobaberles/szb-4.png" alt="Screenshot of a specific advertisement"></a>
+                <a href="./assets/screenshots/szobaberles/szb-5.png" data-lightbox="szobaberles" data-title="Data shown on the homepage"><img src="./assets/screenshots/szobaberles/szb-5.png" alt="Data shown on the homepage"></a>
+
+            </div>
+            <p id="disclaimer">The gallery was made using the open-source <a href="https://github.com/lokesh/lightbox2" target="_blank">Lightbox script.</p>
+        </div>
+
+</main>
     <script src="main.js"></script>
+    <script src="./lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
