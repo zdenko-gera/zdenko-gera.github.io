@@ -164,6 +164,7 @@ main {
     width: fit-content;
     text-decoration: none;
     font-size: larger;
+    font-weight: 500;
 }
 
 .card-type {
