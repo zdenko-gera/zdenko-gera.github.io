@@ -48,4 +48,10 @@
         opacity: 1;
     }
 
+    .flex {
+        flex-direction: column-reverse;
+        gap: 2rem;
+        align-items: center;
+    }
+
 }

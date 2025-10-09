@@ -214,6 +214,7 @@ main {
     width: 70%;
     padding: 2rem;
     border: 2px solid grey;
+    text-align: justify;
 }
 
 footer {
@@ -266,4 +267,16 @@ footer * {
     margin-right: 0;
     margin-bottom: 0;
     width: fit-content;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex img {
+    width: 17rem;
+    height: 17rem;
+    aspect-ratio: 1/1;
+    justify-content: space-between;
+    align-items: center;
 }
