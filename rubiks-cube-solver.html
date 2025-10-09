@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="./lightbox/dist/css/lightbox.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 </head>
 <body>
     <header>
@@ -25,10 +25,34 @@
         <div class="general-block">
             <h4>General</h4>
             <p>
+                I’ve always enjoyed solving Rubik’s cubes, and while playing with them I realized that their logic can be nicely described in programming terms.
+                That’s when I decided to make it the topic of my bachelor’s thesis.
             </p>
 
             <h4>Technical details:</h4>
-            <p>The server side needs were fulfilled using Laravel and for the frontend operations I used native JavaScript and ThreeJS.</p>
+            <p>
+                The server side needs were fulfilled using Laravel, for the frontend operations I used native JavaScript and the 3D modeling was made using ThreeJS.
+            </p>
+            <p>
+                Features:
+                <ul>
+                    <li>User authentication</li>
+                    <li>User authorization</li>
+                    <li>CRUD operations</li>
+                    <ul>
+                        <li>Storing personal records for each cube type</li>
+                        <li>Admins can add Rubik's Cube events which every user or guest can see</li>
+                    </ul>
+                    <li>Rubik's Cube step-by-step guide</li>
+                    <ul>
+                        <li>2x2x2 (3 main steps)</li>
+                        <li>3x3x3 (7 main steps)</li>
+                    </ul>
+                    <li>Rubik's Cube sandbox where the user can play around with the virtual cube</li>
+                    <li>Timer</li>
+                    <li>Events listing</li>
+                </ul>
+            </p>
 
             <h4>Gallery</h4>
             <div class="gallery">
@@ -38,12 +62,16 @@
                 <a href="./assets/screenshots/rubiks-cube-solver/rcs-4.jpg" data-lightbox="rcs" data-title="Mobile screenshot of the 2x2x2 cube in action"><img src="./assets/screenshots/rubiks-cube-solver/rcs-4.jpg" alt="Mobile screenshot of the 2x2x2 cube in action"></a>
 
             </div>
-            <p id="disclaimer">The gallery was made using the open-source <a href="https://github.com/lokesh/lightbox2" target="_blank">Lightbox script.</p>
+            <p id="disclaimer">The gallery was made using the open-source <a href="https://github.com/lokesh/lightbox2" target="_blank">Lightbox script</a>.</p>
         </div>
 
 </main>
     <footer>
         Zdenkó Gera - 2025
+        <div id="footer-socials">
+            <a href="https://www.linkedin.com/in/zdenk%C3%B3-gera-952543309/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+            <a href="https://github.com/zdenko-gera" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
+        </div>
     </footer>
     <script src="main.js"></script>
     <script src="./lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
