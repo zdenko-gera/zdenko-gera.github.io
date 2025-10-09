@@ -40,6 +40,10 @@
         width: 80%;
     }
 
+    .card-title {
+        font-size: large;
+    }
+
     footer {
         font-size: x-small;
     }

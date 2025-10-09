@@ -144,9 +144,9 @@ main {
 .card-desc {
     opacity: 0;
     transition: all .25s;
-    background-color: transparent;
+    background-color: #1200d8;
     text-decoration: none;
-    color: #343434;
+    color: white;
     display: block;
     text-align: center;
     padding-block: .5rem;
@@ -157,8 +157,6 @@ main {
     margin-inline: auto;
 
     &:hover {
-        background-color: #1200d8;
-        color: white;
         box-shadow: .1rem .1rem .4rem .1rem rgba(0, 0, 0, 0.3);
     }
 }
@@ -279,4 +277,28 @@ footer * {
     aspect-ratio: 1/1;
     justify-content: space-between;
     align-items: center;
+}
+
+#szb-card {
+    background-image: url("./assets/sz-card-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#rcs-card {
+    background-image: url("./assets/rcs-card-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#vetessy-card {
+    background-image: url("./assets/vetessy-card-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#dns-card {
+    background-image: url("./assets/dns-card-bg.jpg");
+    background-position: center;
+    background-size: cover;
 }
