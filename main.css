@@ -85,6 +85,12 @@ main {
     }
 }
 
+.filled-button {
+    background-color: #1200d8;
+    color: white;
+    margin: 2rem auto;
+}
+
 #landing-group {
     position: absolute;
     width: 70%;
