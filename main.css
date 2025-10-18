@@ -303,3 +303,9 @@ footer * {
     background-size: cover;
 }
 
+#robot-card {
+    background-image: url("./assets/robot-card-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+

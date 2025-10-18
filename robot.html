@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>zdenko-gera</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="./lightbox/dist/css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+</head>
+<body>
+    <header>
+        <h2>zdenko-gera</h2>
+        <a href="./index.html#projects-title">Projects</a>
+        <a href="./index.html#about-me-title">About me</a>
+        <a href="./index.html#contact-title">Contact</a>
+    </header>
+    <main>
+        <a href="./index.html#projects-title" class="button back-button"><i class="fa-solid fa-chevron-left"></i> Back</a>
+        <h3 class="subtitle">Rubik's Cube solver robot</h3>
+        <div class="general-block">
+            <h4>General</h4>
+            <p>
+                After finishing my <a href="./rubiks-cube-solver.html" target="_blank">bachelor's thesis</a>, I felt that the project wasn’t engaging enough for someone without
+                 programming experience. Therefore, I decided to develop some hardware around the software concept
+                  and modify certain aspects of it.
+            </p>
+            <p>
+                After considering several different methods, I decided to go with the below shown one (the one with the claws).
+                As the project is still in its early stages, detailed plans are still needed before building an actual prototype.
+            </p>
+
+            <h4>Technical details:</h4>
+            <p>
+                In order to have a working robot I need the following things:
+                <ul>
+                    <li>An Arduino</li>
+                    <li>A Raspberry Pi</li>
+                    <li>4 pieces of 180 servo motors for the rotating grips</li>
+                    <li>4 pieces of 360 servo motors for the release mechanism</li>
+                    <li>1.5x15mm steel bar for the frame of the robot</li>
+                </ul>
+            </p>
+            <p>
+            </p>
+
+            <h4>Gallery</h4>
+            <div class="gallery">
+                <a href="./assets/screenshots/rubik-robot/rubik-robot.png" data-lightbox="dns" data-title="An illustration of the robot"><img src="./assets/screenshots/rubik-robot/rubik-robot.png" alt="An illustration of the robot"></a>
+                <a href="./assets/screenshots/rubik-robot/rubik-robot-2.png" data-lightbox="dns" data-title="An illustration of the robot"><img src="./assets/screenshots/rubik-robot/rubik-robot-2.png" alt="An illustration of the robot"></a>
+                <a href="./assets/screenshots/rubik-robot/rubik-robot-3.png" data-lightbox="dns" data-title="An illustration of the robot"><img src="./assets/screenshots/rubik-robot/rubik-robot-3.png" alt="An illustration of the robot"></a>
+                <a href="./assets/screenshots/rubik-robot/rubik-robot-4.png" data-lightbox="dns" data-title="An illustration of the robot"><img src="./assets/screenshots/rubik-robot/rubik-robot-4.png" alt="An illustration of the robot"></a>
+            </div>
+            <p id="disclaimer">The gallery was made using the open-source <a href="https://github.com/lokesh/lightbox2" target="_blank">Lightbox script</a>.</p>
+        </div>
+
+</main>
+    <footer>
+        Zdenkó Gera - 2025
+        <div id="footer-socials">
+            <a href="https://www.linkedin.com/in/zdenk%C3%B3-gera-952543309/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+            <a href="https://github.com/zdenko-gera" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="./lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
