@@ -12,6 +12,10 @@
         display: none;
     }
 
+    header h2 a {
+        display: block;
+    }
+
     #landing-text {
         font-size: xx-large;
     }
