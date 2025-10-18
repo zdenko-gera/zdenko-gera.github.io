@@ -29,17 +29,17 @@ header {
     height: 1.5rem;
 }
 
-header h2 {
-    margin-right: auto;
-    font-size: x-large;
-    font-weight: normal;
-}
-
 header * {
     font-size: large;
     margin: 0;
     text-decoration: none;
     color: #343434;
+}
+
+header h2 {
+    margin-right: auto;
+    font-size: x-large;
+    font-weight: normal;
 }
 
 header a:hover {
