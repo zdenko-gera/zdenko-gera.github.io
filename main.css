@@ -327,7 +327,7 @@ footer * {
 
 .ribbon {
   --r: .25em; /* control the ribbon shape (the radius) */
-  --c: #b500dd;
+  --c: #00aad9;
 
   position: relative;
   top: 0px;
