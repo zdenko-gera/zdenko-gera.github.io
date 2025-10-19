@@ -122,7 +122,7 @@ main {
     /*box-shadow: -.15rem .15rem .5rem rgba(220, 220, 220, 0.8) inset;*/
     padding: .5rem;
     border-radius: .6rem;
-    border: 2px solid grey;
+    border: 1px solid grey;
     background-color: white;
     transition: all .25s;
     display: flex;
@@ -213,7 +213,7 @@ main {
     margin-inline: auto;
     width: 70%;
     padding: 2rem;
-    border: 2px solid grey;
+    border: 1px solid grey;
     text-align: justify;
 }
 
