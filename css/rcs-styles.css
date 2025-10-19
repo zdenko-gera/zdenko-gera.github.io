@@ -1,3 +1,8 @@
+body {
+    background: linear-gradient(45deg, #4e45b0, #2b2b4a);
+    color: #fefefe;
+}
+
     .to-cube-btn {
         text-decoration: none;
         width: fit-content;
